@@ -24,7 +24,7 @@ import {
   Text
 } from '@chakra-ui/react'
 import axios from 'axios'
-import { auth } from 'firebase'
+import { auth } from '../../config/firebase'
 import useRedux from 'react-redux'
 import actions from 'store'
 

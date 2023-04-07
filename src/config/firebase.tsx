@@ -13,9 +13,11 @@ const firebaseConfig = {
   storageBucket: "room-management-837a6.appspot.com",
   messagingSenderId: "437715164716",
   appId: "1:437715164716:web:b5043911298c893484fb89",
+  databaseURL: "https://room-management-837a6-default-rtdb.asia-southeast1.firebasedatabase.app",
   measurementId: "G-VQXD5SWD4P"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+export default firebaseConfig
