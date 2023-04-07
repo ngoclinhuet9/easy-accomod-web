@@ -9,14 +9,42 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icon": "^3.0.16",
+    "@chakra-ui/react": "^2.5.5",
+    "@eslint/create-config": "^0.4.2",
+    "@firebase/firestore": "^3.10.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
+    "antd": "^5.4.0",
+    "axios": "^1.3.5",
+    "currency-formatter": "^1.5.9",
+    "dayjs": "^1.11.7",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "firebase": "^9.19.1",
+    "moment": "^2.29.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.3"
+    "react-icons": "^4.8.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "redux-action-store": "^1.0.1",
+    "redux-persist": "^6.0.0",
+    "store": "^2.0.12",
+    "typescript": "5.0.3",
+    "use-redux-hook": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/currency-formatter": "^1.5.1",
+    "@types/firebase": "^3.2.1",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-scroll": "^1.8.6",
+    "@types/react-slick": "^0.23.10",
+    "@types/store": "^2.0.2"
   }
 }

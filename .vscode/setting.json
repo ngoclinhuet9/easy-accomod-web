@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+      "Chakra",
+      "firestore",
+      "persistor",
+      "reduxjs",
+      "signin",
+      "signup"
+    ], 
+    "editor.codeActionsOnSave": { "source.fixAll": true },
+    "editor.formatOnSave": false
+  }
